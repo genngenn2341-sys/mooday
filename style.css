@@ -1,0 +1,244 @@
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* ページ全体 */
+body {
+  background: linear-gradient(
+  135deg,
+ #fff1f6,
+ #feecf4,
+ #b1e0fa
+);
+  color: #725563;
+  font-family: "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 30px 20px;
+}
+
+/* アプリのタイトル */
+h1 {
+  color: #d879a2;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+
+/* 見出し */
+h2 {
+  color: #bd7897;
+  margin-top: 35px;
+}
+
+/* 説明文 */
+p {
+  line-height: 1.8;
+}
+
+/* ページ全体 */
+body {
+  background-color: #fff1f6;
+  color: #725563;
+  font-family: "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 30px 20px;
+}
+
+/* アプリのタイトル */
+h1 {
+  color: #d879a2;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+
+/* 見出し */
+h2 {
+  color: #bd7897;
+  margin-top: 35px;
+}
+
+/* 説明文 */
+p {
+  line-height: 1.8;
+}
+
+/* 入力欄をかわいく */
+#activityInput {
+  width: 280px;
+  max-width: 80%;
+  padding: 12px;
+  border: 2px solid #f3c7da;
+  border-radius: 20px;
+  background-color: #fffafd;
+  color: #725563;
+  font-size: 15px;
+  outline: none;
+}
+
+/* ボタンを丸く */
+button {
+  border: none;
+  border-radius: 25px;
+  padding: 10px 18px;
+  margin: 5px;
+  background-color: #e9a9c5;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #d98eaf;
+}
+
+/* ルーレットのボタンを目立たせる */
+#rouletteButton {
+  background-color: #d879a2;
+  font-size: 16px;
+  padding: 13px 24px;
+}
+
+/* リストをカード風にする */
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 15px auto;
+}
+
+ul li {
+  background-color: #fffafd;
+  border: 1px solid #f7d8e5;
+  border-radius: 18px;
+  padding: 14px;
+  margin: 12px 0;
+  box-shadow: 0 5px 14px rgba(190, 120, 151, 0.12);
+}
+
+/* タイトルをリボン風に飾る */
+h1 {
+  display: table;
+  margin: 10px auto 30px;
+  padding: 12px 35px;
+  background-color: #ffe0ec;
+  border: 2px solid #f5b8d0;
+  border-radius: 18px;
+  color: #d879a2;
+  position: relative;
+  box-shadow: 0 5px 0 #f4c5d8;
+}
+
+/* タイトルの左右にハート */
+h1::before {
+  content: "🎀";
+  position: absolute;
+  left: -10px;
+  top: -15px;
+  font-size: 30px;
+  color: #e98bb3;
+}
+
+h1::after {
+  content: "🎀";
+  position: absolute;
+  right: -10px;
+  bottom: -15px;
+  font-size: 28px;
+}
+
+/* 見出しの左右にハート */
+h2::before {
+  content: "♡ ";
+  color: #e98bb3;
+}
+
+h2::after {
+  content: " ♡";
+  color: #e98bb3;
+}
+
+
+/* 今日のおすすめエリア */
+#rouletteResult,
+#rouletteButton {
+  display: block;
+  width: fit-content;
+  max-width: 90%;
+  margin: 15px auto;
+}
+
+/* 今日のおすすめをまとめる大きな箱 */
+#rouletteBox {
+  max-width: 500px;
+  margin: 25px auto;
+  padding: 20px;
+  border: 2px solid #e9a9c5;
+  border-radius: 22px;
+  background: rgba(255, 250, 253, 0.85);
+  box-shadow: 0 5px 15px rgba(190, 120, 151, 0.15);
+  text-align: center;
+}
+
+/* 結果の文章 */
+#rouletteResult {
+  color: #bd7897;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 20px;
+}
+
+/* ボタン */
+#rouletteButton {
+  display: inline-block;
+  padding: 13px 28px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+
+/* 今日のおすすめエリア全体 */
+#rouletteBox {
+  display: block;
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 500px;
+  margin: 5px auto;
+  padding: 20px;
+  border: 3px solid #e9a9c5;
+  border-radius: 22px;
+  background-color: #fffafd;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(190, 120, 151, 0.15);
+}
+
+/* 中の文章を中央に */
+#rouletteBox #rouletteResult {
+  display: block;
+  width: auto;
+  max-width: none;
+  margin: 10px 0 20px;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  text-align: center;
+}
+
+/* ボタンも中央に */
+#rouletteBox #rouletteButton {
+  display: inline-block;
+  width: auto;
+  margin: 5px auto;
+}
+
+
+/* TODAY'S PICK の飾り */
+.pickLabel {
+  display: inline-block;
+  margin: 0 auto 12px;
+  padding: 7px 18px;
+  border-radius: 20px;
+  background-color: #ffe0ec;
+  color: #c66f97;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>mooday</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<h1>mooday♡</h1>
+<p id="welcomeMessage"></p>
+
+<h2>今日は、何して過ごす？</h2>
+<p>迷ったときは、気軽に選んでみよう！</p>
+
+<div id="rouletteBox">
+  <p class="pickLabel">🎀 TODAY'S PICK 🎀</p>  
+  <p id="rouletteResult">今日の小さなきっかけにしてね♡</p>
+  <button id="rouletteButton">今日は何する？↗︎</button>
+</div>
+
+
+  <h2>やることを追加</h2>
+  <input
+    id="activityInput"
+    type="text"
+    placeholder="やりたいことを入力してね"
+  >
+  <button id="addButton">追加！</button>
+  <p id="message"></p>
+
+  <h2>やることリスト</h2>
+  <ul id="activityList"></ul>
+
+  <h2>✓ 実行したリスト</h2>
+  <ul id="completedList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
